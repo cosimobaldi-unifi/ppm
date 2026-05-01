@@ -1,0 +1,277 @@
+.site-header{
+    color: #0a0908;
+    font-weight: 700;
+}
+
+.navbar{
+    color: #0a0908;
+}
+
+.main-nav{
+    font-size: 1em;
+    font-weight: 700;
+    border-bottom: 1px solid #919191;
+}
+
+.main-nav a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+
+.trending{
+    font-weight: 500;
+}
+
+.trending a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+.main-article{
+    color: #0a0908;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #919191;
+}
+
+.main-article header{
+    font-family: "Noto Serif", serif;
+}
+
+.main-article h3{
+    font-weight: 700;
+}
+
+.main-article a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+.related-articles{
+    font-size: 0.9em;
+    color: #0a0908;
+}
+
+.related-articles h5{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: 1px solid #919191;
+}
+
+.related-articles ul{
+    font-weight: 700;
+    padding-left: 1em;
+}
+
+.related-articles li{
+    padding-top: 0.5em;
+}
+
+.main-articles ul{
+    list-style: none;
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+.main-articles li{
+    padding: 1em;
+    border-bottom: 1px solid #919191;
+}
+
+.main-articles h4{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+.main-articles a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+.latest-headlines header{
+    color: #0a0908;
+    border-bottom: 2px solid #2787F5;
+}
+
+.latest-headlines ul{
+    list-style: none;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.latest-headlines li{
+    font-family: "Noto Serif", serif;
+    border-bottom: 0.001em solid #919191;
+    padding: 1.5em;
+    padding-left: 0;
+}
+
+.latest-headlines a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+.news-title{
+    padding-bottom: 1em;
+}
+
+.logo{
+    padding-top: 1em;
+    max-height: 7em;
+}
+
+.main-article img{
+    padding-bottom: 2em;
+}
+
+.most-popular{
+    padding-left: 0;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+
+.most-popular h4{
+    font-weight: 450;
+    color: #2787F5;
+    border-bottom: 2px solid #2787F5;
+}
+
+.most-popular ol{
+    padding-top: 2em;
+    padding-left: 0;
+}
+
+.most-popular li{
+    padding-left: 0;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+.most-popular li::marker{
+    font-weight: 700;
+    color: #2787F5;
+}
+
+.most-popular a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+.crime-sport-estate h4{
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: 400;
+    border-bottom: 2px solid #2787F5;
+}
+
+.crime-sport-estate h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.crime-sport-estate p{
+    font-size: 1.1em;
+}
+
+.crime-sport-estate img{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.crime-sport-estate a:hover{
+    text-decoration: none;
+    color: #0884cc;
+}
+
+.crime-sport-estate ul{
+    list-style: none;
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+.crime-sport-estate li{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 700;
+    border-bottom: 0.001em solid #919191;
+}
+
+.photos h3{
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: 400;
+    border-bottom: 2px solid #2787F5;
+}
+
+.main-photo{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0;
+}
+
+.other-photos {
+    padding-left: 0;
+}
+
+.other-photos ul{
+    padding: 0;
+    list-style: none;
+}
+
+.other-photos h5{
+    padding-top: 0;
+}
+
+
+.glyphicon-chevron-right{
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 0.6em;
+    color: #2787F5;
+}
+
+a{
+    color: #0a0908;
+}
+
+a:hover{
+    color: #0a0908;
+}
+
+time{
+    font-family: "Noto Sans", sans-serif;
+    padding-left: 1em;
+    font-weight: 300;
+}
+
+.btn{
+    margin: 1em;
+    padding: 1em;
+    color: white;
+}
+
+.glyphicon{
+    padding: 0.7em;
+    margin: 0.5em;
+}
+
+.glyphicon-search{
+    font-size: 1em;
+}
+
+.glyphicon-user{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.glyphicon-chevron-down{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h1{
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
