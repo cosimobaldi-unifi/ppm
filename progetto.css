@@ -61,9 +61,10 @@
     color: #0a0908;
 }
 
-.related-articles h5{
+.related-articles h4{
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+    font-size: 1.1em;
     border-bottom: 1px solid #919191;
 }
 
@@ -125,7 +126,8 @@
     padding: 1em;
 }
 
-.sign-up h5{
+.sign-up h4{
+    font-size: 1.1em;
     font-weight: 700;
 }
 
@@ -149,8 +151,7 @@
 }
 
 .most-popular h4{
-    font-weight: 450;
-    color: #2787F5;
+    color: #0565D3;
     border-bottom: 2px solid #2787F5;
 }
 

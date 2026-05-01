@@ -12,18 +12,17 @@
 <body>
     <header class="site-header container-fluid row">
         <div class="container-fluid col-md-3 col-sm-4 col-xs-2">
-            <a href="#" aria-label="website menu"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="hidden-sm hidden-xs">All Sections</span></a>
+            <a href="#" aria-label="open-website-menu" role="button"><span class="glyphicon glyphicon-menu-hamburger"></span><span class="hidden-sm hidden-xs">All Sections</span></a>
         </div>
-        <a href="#"><img class="col-md-6 col-sm-4 col-xs-5 logo" src="https://placehold.co/100x20" alt="logo"></a>
+        <a href="#"><img class="col-md-6 col-sm-4 col-xs-5 logo" src="https://placehold.co/100x20" alt="logo del sito"></a>
         <div class="col-md-3 col-sm-4 col-xs-5">
             <button type="button" class="btn btn-primary hidden-sm hidden-xs" aria-label="Subscribe">Subscribe</button>
-            <button type="button" class="btn btn-primary hidden-sm hidden-xs" aria-label="Log in">Log in</button>
-            <a href="#"><span class="glyphicon glyphicon-user hidden-lg hidden-md" aria-label="User actions"></span></a>
-            <a href="#"><span class="glyphicon glyphicon-chevron-down hidden-lg hidden-md" aria-label="User actions"></span></a>
-            <a href="#"><span class="glyphicon glyphicon-search" aria-label="Search"></span></a>
+            <button type="button" class="btn btn-primary hidden-sm hidden-xs" aria-label="Log-in">Log in</button>
+            <a href="#" class="glyphicon glyphicon-user hidden-lg hidden-md" aria-label="Account-options" role="button"><span class="glyphicon glyphicon-chevron-down hidden-lg hidden-md"></span></a>
+            <a href="#" class="glyphicon glyphicon-search" aria-label="Search" role="button"></a>
         </div>
     </header>
-    <nav class="main-nav navbar hidden-sm hidden-xs">
+    <nav class="main-nav navbar hidden-sm hidden-xs" aria-label="main navigation bar">
         <div class="container">
             <ul class="nav navbar-nav text-center">
                 <li><a href="#">News</a></li>
@@ -39,7 +38,7 @@
             </ul>
         </div>
     </nav>
-    <nav class="navbar trending container-fluid hidden-sm hidden-xs">
+    <nav class="navbar trending container-fluid hidden-sm hidden-xs" aria-label="trending-navigation-bar">
         <div class="container">
             <div class="text-info navbar-header"><h4><strong>TRENDING:</strong></h4></div>
             <ul class="nav navbar-nav">
@@ -55,86 +54,86 @@
     <main class="container">
         <div class="row">
             <div class="first-page col-md-9 col-sm-12 container">
-                <article class="main-article">
+                <article class="main-article" aria-labelledby="articolo-principale">
                     <div class="row">
                         <header class="col-md-5 col-sm-12">
-                            <h3 class="news-title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros. Duis in nisl id neque lobortis facilisis sed sit amet dui</a></h3>
+                            <h3 id="articolo-principale" class="news-title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros. Duis in nisl id neque lobortis facilisis sed sit amet dui</a></h3>
                         </header>
-                        <a href="#"><img class="col-md-7 col-sm-12" src="https://placehold.co/400x200" alt="immagine primo piano"></a>
+                        <a href="#"><img class="col-md-7 col-sm-12" src="https://placehold.co/400x200" alt="immagine notizia primo piano"></a>
                         <section class="col-md-5 col-sm-12">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.
                             </p>
                             <footer class="related-articles">
-                                <h5>Related</h5>
+                                <h4>Related</h4>
                                     <ul>
-                                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
+                                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
                                     </ul>
                             </footer>
                         </section>
                     </div>
                 </article>
                 <section class="main-articles row">
-                    <ul>
+                    <ul aria-label="altri-articoli">
                         <li class="col-sm-6 col-xs-12">
                             <article class="row">
-                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia"></a>
+                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia principale 1"></a>
                                 <a href="#"><h4 class="col-xs-7 col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></a>
                             </article>
                         </li>
                         <li class="col-sm-6 col-xs-12">
                             <article class="row">
-                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia"></a>
+                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia principale 2"></a>
                                 <a href="#"><h4 class="col-xs-7 col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></a>
                             </article>
                         </li>
                         <li class="col-sm-6 col-xs-12">
                             <article class="row">
-                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia"></a>
+                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia principale 3"></a>
                                 <a href="#"><h4 class="col-xs-7 col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></a>
                             </article>
                         </li>
                         <li class="col-sm-6 col-xs-12">
                             <article class="row">
-                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia"></a>
+                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia principale 4"></a>
                                 <a href="#"><h4 class="col-xs-7 col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></a>
                             </article>
                         </li>
                         <li class="col-sm-6 col-xs-12">
                             <article class="row">
-                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia"></a>
+                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia principale 5"></a>
                                 <a href="#"><h4 class="col-xs-7 col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></a>
                             </article>
                         </li>
                         <li class="col-sm-6 col-xs-12">
                             <article class="row">
-                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia"></a>
+                                <a href="#"><img class="col-xs-5 col-md-12" src="https://placehold.co/300x150" alt="notizia principale 6"></a>
                                 <a href="#"><h4 class="col-xs-7 col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4></a>
                             </article>
                         </li>
                     </ul>
                 </section>
             </div>
-            <section class="latest-headlines col-md-3 col-sm-12">
-                    <header><h3>LATEST HEADLINES</h3></header>
+            <section class="latest-headlines col-md-3 col-sm-12" aria-labelledby="notizie-recenti">
+                    <header><h3 id="notizie-recenti">LATEST HEADLINES</h3></header>
                     <ul>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</a><time datetime="2000-01-01 00:00" aria-label="Published x minutes ago">x minutes ago</time></li>
                     </ul>
                     <div class="sign-up">
-                        <h5>Get Morning Report and other email newsletters</h5>
+                        <h4>Get Morning Report and other email newsletters</h4>
                         <button type="button" class="btn btn-primary" aria-label="Sign Up">SIGN UP</button>
                     </div>
             </section>
         </div>
-        <section class="most-popular container">
-            <header><h4>MOST POPULAR</h4></header>
+        <section class="most-popular container" aria-labelledby="articoli-piu-popolari">
+            <header><h4 id="articoli-piu-popolari">MOST POPULAR</h4></header>
             <ol>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
@@ -153,8 +152,8 @@
             </ol>
         </section>
         <div class="crime-sport-estate row">
-            <section class="col-md-4 col-sm-6 col-xs-12">
-                <a href="#"><header><h4>CRIME AND PUBLIC SAFETY<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+            <section class="col-md-4 col-sm-6 col-xs-12" aria-labelledby="articoli-su-criminalita-e-sicurezza-pubblica">
+                <a href="#"><header><h4 id="articoli-su-criminalita-e-sicurezza-pubblica">CRIME AND PUBLIC SAFETY<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                 <article>
                     <a href="#"><img src="https://placehold.co/300x200" alt="notizia crimine e sicurezza pubblica"></a>
                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -166,8 +165,8 @@
                     </ul>
                 </article>
             </section>
-            <section class="col-md-4 col-sm-6 col-xs-12">
-                <a href="#"><header><h4>SPORTS<span class="glyphicon glyphicon-chevron-right"></span></h4></header>
+            <section class="col-md-4 col-sm-6 col-xs-12" aria-labelledby="articoli-su-sport">
+                <a href="#"><header><h4 id="articoli-su-sport">SPORTS<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                 <article>
                     <a href="#"><img src="https://placehold.co/300x200" alt="notizia sport"></a>
                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -179,8 +178,8 @@
                     </ul>
                 </article>
             </section>
-            <section class="col-md-4 col-sm-6 col-xs-12"></a>
-                <a href="#"><header><h4>REAL ESTATE<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+            <section class="col-md-4 col-sm-6 col-xs-12" aria-labelledby="articoli-su-annunci-immobiliari">
+                <a href="#"><header><h4 id="articoli-su-annunci-immobiliari">REAL ESTATE<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                 <article>
                     <a href="#"><img src="https://placehold.co/300x200" alt="notizia immobiliare"></a>
                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -193,8 +192,8 @@
                 </article>
             </section>
         </div>
-        <section class="photos row">
-            <a href="#"><header><h3>PHOTOS<span class="glyphicon glyphicon-chevron-right"></span></h3></header></a>
+        <section class="photos row" aria-labelledby="galleria-di-foto">
+            <a href="#"><header><h3 id="galleria-di-foto">PHOTOS<span class="glyphicon glyphicon-chevron-right"></span></h3></header></a>
             <div class="main-photo col-md-7 col-sm-12">
                 <a href="#"><img src="https://placehold.co/500x300" alt="foto principale"></a>
                 <a href="#"><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h4></a>
@@ -205,29 +204,29 @@
             <div class="other-photos col-md-5 col-sm-12">
                 <ul class="col-md-12 col-sm-6 col-xs-12">
                     <li>
-                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria"></a>
+                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria 1"></a>
                         <a class="col-md-9 col-sm-9 col-xs-10" href="#"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h5></a>
                     </li>
                     <li>
-                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria"></a>
+                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria 2"></a>
                         <a class="col-md-9 col-sm-9 col-xs-10" href="#"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h5></a>
                     </li>
                     <li>
-                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria"></a>
+                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria 3"></a>
                         <a class="col-md-9 col-sm-9 col-xs-10" href="#"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h5></a>
                     </li>
                 </ul>
                 <ul class="col-md-12 col-sm-6 col-xs-12">
                     <li>
-                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria"></a>
+                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria 4"></a>
                         <a class="col-md-9 col-sm-9 col-xs-10" href="#"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h5></a>
                     </li>
                     <li>
-                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria"></a>
+                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria 5"></a>
                         <a class="col-md-9 col-sm-9 col-xs-10" href="#"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h5></a>
                     </li>
                     <li>
-                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria"></a>
+                        <a class="col-md-3 col-sm-3 col-xs-2" href="#"><img src="https://placehold.co/90x50" alt="foto secondaria 6"></a>
                         <a class="col-md-9 col-sm-9 col-xs-10" href="#"><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu consequat neque, eu iaculis eros.</h5></a>
                     </li>
                 </ul>
@@ -236,10 +235,10 @@
         <aside class="non-news">
             <ul>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>THINGS TO DO<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="cose-da-fare">
+                        <a href="#"><header><h4 id="cose-da-fare">THINGS TO DO<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="cose da fare"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale cosa da fare"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -255,10 +254,10 @@
                     </section>
                 </li>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>RESTAURANTS, FOOD ADN DRINK<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="ristoranti-e-cibo">
+                        <a href="#"><header><h4 id="ristoranti-e-cibo">RESTAURANTS, FOOD ADN DRINK<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="ristoranti e cibo"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale ristorante e cibo"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -274,10 +273,10 @@
                     </section>
                 </li>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>OPINION<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="opinioni">
+                        <a href="#"><header><h4 id="opinioni">OPINION<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="opinioni(?)"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale opinione(?)"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -293,10 +292,10 @@
                     </section>
                 </li>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>BUSINESS<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="business">
+                        <a href="#"><header><h4 id="business">BUSINESS<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="business"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale business"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -312,10 +311,10 @@
                     </section>
                 </li>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>CELEBRITIES<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="celebrita">
+                        <a href="#"><header><h4 id="celebrita">CELEBRITIES<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="celebrita"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale celebrita"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -331,10 +330,10 @@
                     </section>
                 </li>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>HOUSING<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="vendite-immobili">
+                        <a href="#"><header><h4 id="vendite-immobili">HOUSING<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="vendite immobili"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale vendita immobili"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -350,10 +349,10 @@
                     </section>
                 </li>
                 <li>
-                    <section>
-                        <a href="#"><header><h4>BEST REVIEWS<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
+                    <section aria-labelledby="migliori-recensioni">
+                        <a href="#"><header><h4 id="migliori-recensioni">BEST REVIEWS<span class="glyphicon glyphicon-chevron-right"></span></h4></header></a>
                         <article class="row">
-                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="migliori recensioni"></a>
+                            <a class="col-md-4 col-sm-6" href="#"><img src="https://placehold.co/325x200" alt="principale migliore recensione"></a>
                             <div class="col-md-8 col-sm-6">
                                 <div class="col-md-6 col-sm-12">
                                     <header><a href="#"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></a></header>
@@ -372,45 +371,45 @@
         </aside>
     </main>
     <footer class="footer container-fluid row">
-        <a href="#"><img class="col-md-3 col-sm-4 col-xs-6 logo" src="https://placehold.co/100x20" alt="logo"></a>
+        <a href="#"><img class="col-md-3 col-sm-4 col-xs-6 logo" src="https://placehold.co/100x20" alt="logo del sito"></a>
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <ul class="col-md-3 col-sm-3 col-xs-12">
-                <a href="#"><h4>NEWS ALERTS</h4></a>
-                <a href="#"><li>Email Newsletters</li></a>
-                <a href="#"><li>Today's e-Editions</li></a>
-                <a href="#"><li>Mobile Apps</li></a>
-                <a href="#"><li>Site Map</li></a>
+            <ul class="col-md-3 col-sm-3 col-xs-12" aria-labelledby="avvisi-su-notizie">
+                <h4 id="avvisi-su-notizie"><a href="#">NEWS ALERTS</a></h4>
+                <li><a href="#">Email Newsletters</a></li>
+                <li><a href="#">Today's e-Editions</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+                <li><a href="#">Site Map</a></li>
             </ul>
-            <ul class="col-md-3 col-sm-3 col-xs-12">
-                <a href="#"><h4>MARKETPLACE</h4></a>
-                <a href="#"><li>Place an Obituary</li></a>
-                <a href="#"><li>Place a Real Estate Ad</li></a>
-                <a href="#"><li>Lottery</li></a>
+            <ul class="col-md-3 col-sm-3 col-xs-12" aria-labelledby="marketplace">
+                <h4 id="marketplace"><a href="#">MARKETPLACE</a></h4>
+                <li><a href="#">Place an Obituary</a></li>
+                <li><a href="#">Place a Real Estate Ad</a></li>
+                <li><a href="#">Lottery</a></li>
             </ul>
-            <ul class="col-md-3 col-sm-3 col-xs-12">
-                <a href="#"><h4>CONTACT US</h4></a>
-                <a href="#"><li>Digital Access FAQ</li></a>
-                <a href="#"><li>Join our Team</li></a>
-                <a href="#"><li>Special Sections</li></a>
-                <a href="#"><li>Sponsor a Group</li></a>
-                <a href="#"><li>Get Sponsored Access</li></a>
-                <a href="#"><li>Privacy Policy</li></a>
-                <a href="#"><li>Accessibility</li></a>
+            <ul class="col-md-3 col-sm-3 col-xs-12" aria-labelledby="contattaci">
+                <h4 id="contattaci"><a href="#">CONTACT US</a></h4>
+                <li><a href="#">Digital Access FAQ</a></li>
+                <li><a href="#">Join our Team</a></li>
+                <li><a href="#">Special Sections</a></li>
+                <li><a href="#">Sponsor a Group</a></li>
+                <li><a href="#">Get Sponsored Access</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Accessibility</a></li>
             </ul>
-            <ul class="col-md-3 col-sm-3 col-xs-12">
-                <a href="#"><h4>ADVERTISE WITH US</h4></a>
-                <a href="#"><li>Network Advertising</li></a>
-                <a href="#"><li>Daily Ads</li></a>
-                <a href="#"><li>Place a Legal Notice</li></a>
-                <a href="#"><li>Public Notices</li></a>
+            <ul class="col-md-3 col-sm-3 col-xs-12" aria-labelledby="fai-pubblicita-insieme-a-noi">
+                <h4 id="fai-pubblicita-insieme-a-noi"><a href="#">ADVERTISE WITH US</a></h4>
+                <li><a href="#">Network Advertising</a></li>
+                <li><a href="#">Daily Ads</a></li>
+                <li><a href="#">Place a Legal Notice</a></li>
+                <li><a href="#">Public Notices</a></li>
             </ul>
-            <ul class="col-md-3 col-sm-3 col-xs-12">
-                <a href="#"><h4>SUBSCRIBE</h4></a>
-                <a href="#"><li>Member Services</li></a>
-                <a href="#"><li>Manage Subscritions</li></a>
-                <a href="#"><li>The Mercury News Store</li></a>
-                <a href="#"><li>Archive Search</li></a>
-                <a href="#"><li>Reprints</li></a>
+            <ul class="col-md-3 col-sm-3 col-xs-12" aria-labelledby="iscriviti-al-sito">
+                <h4 id="iscriviti-al-sito"><a href="#">SUBSCRIBE</a></h4>
+                <li><a href="#">Member Services</a></li>
+                <li><a href="#">Manage Subscritions</a></li>
+                <li><a href="#">The Mercury News Store</a></li>
+                <li><a href="#">Archive Search</a></li>
+                <li><a href="#">Reprints</a></li>
                 <button type="button" class="btn btn-primary" aria-label="Subscribe now">SUBSCRIBE NOW</button>
             </ul>
         </div>
